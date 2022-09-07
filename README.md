@@ -1,6 +1,6 @@
 # nft-staking
 
-<b>Collection.sol<b>
+<b>Collection.sol</b>
 
 Basic NFT smart contract with all functions and fetures needed for most of the collections.
 

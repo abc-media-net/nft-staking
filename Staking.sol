@@ -10,7 +10,7 @@ pragma solidity 0.8.4;
 import "https://github.com/abc-media-net/nft-staking/Token.sol";
 import "https://github.com/abc-media-net/nft-staking/Collection.sol";
 
-contract NFT Staking is Ownable, IERC721Receiver {
+contract NFTStaking is Ownable, IERC721Receiver {
 
   uint256 public totalStaked;
   
@@ -27,12 +27,12 @@ contract NFT Staking is Ownable, IERC721Receiver {
 
   // reference to the NFT contract
   Collection nft;
-  ABC Token token;
+  ABCToken token;
 
   // maps tokenId to stake
   mapping(uint256 => Stake) public vault; 
 
-   constructor(Collection _nft, ABC Token _token) { 
+   constructor(Collection _nft, ABCToken _token) { 
     nft = _nft;
     token = _token;
   }

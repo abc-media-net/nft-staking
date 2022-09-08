@@ -1,5 +1,7 @@
 # Instructions & Description
 
+Simple instructions and clear explanation on every file included in this repository.
+
 ## Collection.sol
 
 Basic NFT smart contract with all functions and fetures needed for most of the collections.
